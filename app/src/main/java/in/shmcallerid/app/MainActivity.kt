@@ -1,4 +1,4 @@
-package in.shmcallerid.app
+package `in`.shmcallerid.app
 
 import android.app.Activity
 import android.os.Bundle
