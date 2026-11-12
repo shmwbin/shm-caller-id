@@ -1,4 +1,3 @@
-
 package in.shmcallerid.app
 
 import android.telecom.Call
