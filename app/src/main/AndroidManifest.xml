@@ -1,8 +1,6 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Required Permissions -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -15,7 +13,6 @@
         android:usesCleartextTraffic="false"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
-        <!-- Main Application Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,7 +24,6 @@
 
         </activity>
 
-        <!-- Incoming Call Screening Service -->
         <service
             android:name=".CallScreeningService"
             android:permission="android.permission.BIND_SCREENING_SERVICE"
